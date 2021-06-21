@@ -1,0 +1,66 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+    padding: 50px;
+}
+.accordion {
+    margin: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 25px;
+}
+
+.accordion dt,
+dd {
+    padding: 10px;
+    border-bottom: 0;
+}
+
+.accordion dt,
+dd a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: tomato;
+
+}
+
+.accordion dd {
+    border-top: 0;
+    font-size: 20px;
+    border-left: 3px solid #424242;
+}
+
+.accordion dd:last-of-type {
+    border-top: 0;
+    font-size: 20px;
+    position: relative;
+    top: -1px;
+}
+
+.definition{
+    padding: 50px;
+}
+
+button{
+    border: none;
+    background-color: #fff;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    padding: 0px;
+}
+
+.mediums td{
+    padding: 50px;
+}
+
+.mediums a{
+    color: teal;
+}
